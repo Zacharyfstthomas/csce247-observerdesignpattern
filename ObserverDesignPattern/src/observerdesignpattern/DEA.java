@@ -1,11 +1,9 @@
 package observerdesignpattern;
 import java.util.ArrayList;
 /**
- * 
  * The DEA is an Observer, using a ArrayList of locations,
  * and a separate String of notes to represent the actions the Cook took.
  * @author zacha
- *
  */
 public class DEA implements Observer{
 
@@ -13,7 +11,6 @@ public class DEA implements Observer{
 	private ArrayList<String> locations;
 	private String notes;
 	/**
-	 * 
 	 * Constructor. Initializes the locations ArrayList,
 	 * and adds this instance to the Cook's observers ArrayList.
 	 * notes is also initialized.
