@@ -8,13 +8,10 @@ import java.util.ArrayList;
  *
  */
 public class Cartel implements Observer{
-
 	
 	private Subject cook;
 	private ArrayList<Sighting> sightings;
-	
 	/**
-	 * 
 	 * Constructor. Initializes the ArrayList, and adds this instance to the list
 	 * of observers.
 	 * @param cook: The instance of Cook, the subject which this instance observes. Sends out updates to Observers.
@@ -34,7 +31,6 @@ public class Cartel implements Observer{
 	public void update(String location, String description) {
 		sightings.add(new Sighting(location, description));
 	}
-	
 	/**
 	 * Returns every Sighting in the sightings ArrayList,
 	 * consolidating them into a single String, with a
