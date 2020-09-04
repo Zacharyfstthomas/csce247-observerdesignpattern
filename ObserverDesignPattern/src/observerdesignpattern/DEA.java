@@ -35,8 +35,6 @@ public class DEA implements Observer{
 		this.notes += description + "\n";
 	}
 	/**
-	 * 
-	 * 
 	 * Returns every String in the locations ArrayList,
 	 * consolidating them into a single String and adding newline indicators between
 	 * each location String.
